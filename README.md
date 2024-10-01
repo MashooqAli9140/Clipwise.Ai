@@ -1,1 +1,1 @@
-Clipwise.Ai
+Clipwise.Aigit
