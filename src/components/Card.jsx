@@ -1,4 +1,5 @@
 import React from "react";
+import crystal from "/src/images/crys.png";
 
 const Card = () => {
   return (
@@ -9,7 +10,7 @@ const Card = () => {
       </div>
       <div className="cardimage">
         {" "}
-        <img src="src/images/crys.png" alt="" />
+        <img src= {crystal} alt="" />
       </div>
       <div className="cardtitle">
         <h3>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import crystal from "/src/images/crys.png";
 const BottomCircle = () => {
   return (
     <div className="bottomcircle">
@@ -21,7 +21,7 @@ const BottomCircle = () => {
         <div className="circle1">
           <div className="bottomcrysdiv">
             <img
-              src="src/images/crys.png"
+              src={crystal}
               alt="bottom image"
               className="bottomcrys"
             />

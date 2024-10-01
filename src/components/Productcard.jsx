@@ -1,12 +1,12 @@
 import React from "react";
-
+import crystal from "/src/images/crys.png";
 const Productcard = () => {
   return (
     <div>
       <div className="productcard">
         <div className="CARDIMAGEdiv">
           <img
-            src="src/images/crys.png"
+            src={crystal}
             alt="Product crystol"
             className="CARDIMAGE"
           />
